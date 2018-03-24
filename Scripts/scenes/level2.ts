@@ -81,7 +81,7 @@ module scenes {
                 this._engineSound.stop();
                 managers.Game.currentScene = config.Scene.OVER;
             }
-             if(this._scoreBoard.Score == 200) {
+             if(this._scoreBoard.Score == 1000) {
                 this._engineSound.stop();
                 managers.Game.currentScene = config.Scene.LEVEL3;
               } 

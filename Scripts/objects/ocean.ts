@@ -51,7 +51,7 @@ module objects {
         }
       }
       else if(this._lvl == 3) {
-        if(this.x <= 640) {
+        if(this.x <= -640) {
           this._reset();
         }
       }
